@@ -34,9 +34,6 @@ function init() {
 				minZoom: 7,
 				maxZoom: 12,
 				extent: [-8062536.39, -4529904.84, -7215053.68, -3744173.39],
-				floor_num: floor,
-				type: 'floor',
-				zIndex: zIndex,
 				crossOrigin: "anonymous"
 			}),
 			layers: [new ol.layer.Tile({
